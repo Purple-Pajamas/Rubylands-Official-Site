@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "3emj";
+  src: url("fonts/3emj regular 1.0.ttf");
+}
+
+body {
+  font-family: "3emj", sans-serif;
+}
