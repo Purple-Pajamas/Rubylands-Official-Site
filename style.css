@@ -3,6 +3,29 @@
   src: url("fonts/3emj regular 1.0.ttf");
 }
 
+.navbar {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)),
+    url("images/grass.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover, 64px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
 body {
+  margin: 0;
+  background-image:
+    radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("images/dirt.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover, 64px 64px;
   font-family: "3emj", sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+main {
+  margin: 20px;
 }
