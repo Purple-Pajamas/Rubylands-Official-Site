@@ -3,6 +3,26 @@
   src: url("fonts/3emj regular 1.0.ttf");
 }
 
+/* unvisited link */
+a:link {
+  color: White;
+}
+
+/* visited link */
+a:visited {
+  color: White;
+}
+
+/* mouse over link */
+a:hover {
+  color: Yellow;
+}
+
+/* selected link */
+a:active {
+  color: Gold;
+}
+
 .navbar {
   background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)),
@@ -12,6 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between
+  padding: 10px 20px; 
 }
 
 body {
@@ -26,6 +47,7 @@ body {
   min-height: 100vh;
 }
 
+/* used to keep the navbar from looking weird */
 main {
   margin: 20px;
 }
